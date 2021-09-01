@@ -159,11 +159,15 @@ a:hover, a:focus {
   align-items: center;
 } 
 
+.header{
+  border-bottom: 1px solid #ECECEC;
+}
+
 /* стили легенд */
 .legend-section {
   max-width: 1600px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: #2f303a;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/img-hero.jpg);
   padding: 200px 0px;
@@ -226,14 +230,14 @@ a:hover, a:focus {
   margin-bottom: 30px;
   }
 .icon-details{
-  width: 65px;
+  width: 70px;
   height: 70px;
   background: #F5F4FA;
   border-radius: 4px;
 }
 
 .icon-timing{
-  width: 67px;
+  width: 70px;
   height: 70px;
   background: #F5F4FA;
   border-radius: 4px;
@@ -241,7 +245,7 @@ a:hover, a:focus {
 
 .icon-planning{
   width: 70px;
-  height: 54px;
+  height: 70px;
   background: #F5F4FA;
   border-radius: 4px;
 }
@@ -304,7 +308,6 @@ a:hover, a:focus {
 
 /* наша команда */
 .section-our-team {
-  /* background-color: #f5f4fa; */
   background: #F5F4FA;
 }
 .our-team-list {
@@ -344,7 +347,7 @@ padding-top: 30px;
   justify-content: center;
  }
 
-.social:not(:first-child){
+.social-item:not(:first-child){
   margin-left: 10px;
 }
 
@@ -391,8 +394,6 @@ margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -30px;
-  /* flex-basis: calc((100%-150px)/6); */
 }
 
 .clients-item{
@@ -401,7 +402,7 @@ margin-bottom: 50px;
   justify-content: center;
 }
 
-.clients-link{
+.clients-item:not(:first-child){
   margin-left: 30px;}
   
   .clients-link{
@@ -433,17 +434,17 @@ margin-bottom: 50px;
 
 .footer-container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
 }
 
-.footer-contacts-block{
+/* .footer-contacts-block{
   display: inline-block;
-}
+} */
 
-.footer-social{
+/* .footer-social{
   display: inline-block;
     align-self: flex-start;
-}
+} */
 
 .footers-contacts {
   text-decoration: none;
